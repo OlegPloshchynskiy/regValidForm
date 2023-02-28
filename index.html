@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+
+    <!-- <div class="container text-center p-5">
+        <h2>
+            Contact us
+        </h2>
+
+        <div class="row col-4">
+            <div class="col ">
+                <div id="error">
+                    
+                </div>
+                <form name="formMessage">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="name">
+                        <label for="floatingInput">User name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea name="message" id="message" class="col col-12" minlength="30"></textarea>
+                    </div>
+
+                    <button class="btn btn-primary col-8" type="submit">Send</button>
+
+                </form>
+            </div>
+        </div>
+
+    </div> -->
+
+
+
+
+
+    <div class="container">
+        <div class="row col-12 col-sm-6">
+            <div class="col">
+                <form name="registr">
+
+                    <div id="error"></div>
+
+                    <h3>Registration Form</h3>
+        
+                    <div class="input-box mt-5">
+                        <label for="userName">User name <span class="req">*</span></label>
+                        <input type="text" name="userName" class="form-control" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="input-box mt-3">
+                        <label for="userName">User email <span class="req">*</span></label>
+                        <input type="email" name="email" class="form-control" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="input-box mt-3">
+                        <label for="password">Password <span class="req">*</span></label>
+                        <input type="password" name="password" class="form-control" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="input-box mt-3">
+                        <label for="rePassword">Re-enter password <span class="req">*</span></label>
+                        <input type="password" name="rePassword" class="form-control" aria-describedby="basic-addon3">
+                    </div>
+                    <div class="input-box mt-3">
+                        <input type="checkbox" name="checkbox">
+                        <label for="checkbox">I accept the terms and conditions</label>
+                    </div>
+                    <button class="btn btn-primary col-12 mt-5" type="submit" id="submit">
+                        Enter
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
